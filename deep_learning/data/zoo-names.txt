@@ -1,0 +1,44 @@
+Zoo data set
+
+1: Description.
+
+A simple database where the task is to classify animals in seven predefined classes and most of the attributes are boolean-valued. 
+
+Classes (set of animals): 
+1: aardvark, antelope, bear, boar, buffalo, calf, cavy, cheetah, deer, dolphin, elephant, fruitbat, giraffe, girl, goat, gorilla, hamster, hare, leopard, lion, lynx, mink, mole, mongoose, opossum, oryx, platypus, polecat, pony, porpoise, puma, pussycat, raccoon, reindeer, seal, sealion, squirrel, vampire, vole, wallaby, wolf 
+2: chicken, crow, dove, duck, flamingo, gull, hawk, kiwi, lark, ostrich, parakeet, penguin, pheasant, rhea, skimmer, skua, sparrow, swan, vulture, wren. 
+3: pitviper, seasnake, slowworm, tortoise, tuatara. 
+4: bass, carp, catfish, chub, dogfish, haddock, herring, pike, piranha, seahorse, sole, stingray, tuna. 
+5: frog, frog, newt, toad. 
+6: flea, gnat, honeybee, housefly, ladybird, moth, termite, wasp. 
+7: clam, crab, crayfish, lobster, octopus, scorpion, seawasp, slug, starfish, worm.
+
+2: Type.			Classification	
+3: Origin.			Real world
+4: Instances.		101
+5: Features.		17
+6: Classes.			7	
+7: Missing values.	No
+
+8: Header.
+
+@relation zoo
+@attribute Hair {0,1}
+@attribute Feathers {0,1}
+@attribute Eggs {0,1}
+@attribute Milk {0,1}
+@attribute Airborne {0,1}
+@attribute Aquatic {0,1}
+@attribute Predator {0,1}
+@attribute Toothed {0,1}
+@attribute Backbone {0,1}
+@attribute Breathes {0,1}
+@attribute Venomous {0,1}
+@attribute Fins {0,1}
+@attribute Legs {0,2,4,5,6,8}
+@attribute Tail {0,1}
+@attribute Domestic {0,1}
+@attribute Catsize {0,1}
+@attribute Type {1,2,3,4,5,6,7}
+@inputs Hair, Feathers, Eggs, Milk, Airborne, Aquatic, Predator, Toothed, Backbone, Breathes, Venomous, Fins, Legs, Tail, Domestic, Catsize
+@outputs Type
