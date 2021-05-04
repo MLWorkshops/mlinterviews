@@ -7,10 +7,27 @@ import os
 import matplotlib.pyplot as plt
 import numpy as np
 from PIL import Image
+import requests
 
+
+def download_file(url):
+    """
+    Download a file with the requests library and save it
+    locally
+    
+    From:  https://stackoverflow.com/questions/16694907/download-large-file-in-python-with-requests
+    """
+    local_filename = url.split(os.sep)[-1]
+    with requests.get(url, stream=True) as r:
+        r.raise_for_status()
+        with open(local_filename, 'wb') as f:
+            for chunk in r.iter_content(chunk_size=8192): 
+                f.write(chunk)
+    return local_filename
 
 def pad_image(np_img):
-    """Use numpy operations to add padding around an image in
+    """
+    Use numpy operations to add padding around an image in
     numpy format (an array of rank 3 - so 3 channels) in order
     to create a square image.
     
@@ -47,7 +64,9 @@ def pad_image(np_img):
     
 def prep_images(img_dir):
     """
-    Preprocess the images in the class folders
+    Preprocess the different size and dimension images in 
+    the class folders:
+    
     1. Pad to square
     2. Resize to 64x64 pixels
     3. Save to new folder
