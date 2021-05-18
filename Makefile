@@ -14,3 +14,12 @@ docker-tag:
 
 docker-push:
 	@docker push $(organization)/$(image):$(tag)
+
+.PHONY: help
+help:
+	@echo "\nDocker:"
+	@echo " build                    Build a docker image"
+	@echo " docker-run               Run a docker image locally"
+	@echo " docker-tag               Tag a local docker image (before pushing it to dockerhub)"
+	@echo " docker-push              Push a tagged docker image to dockerhub"
+
