@@ -1,13 +1,14 @@
 tag=latest
 organization=mlworkshops
 image=data-science-interview-workshop
+run_options=-p 8888:8888
 
 # Docker
 build:
-	@docker build --force-rm $(options) -t $(image) ./
+	@docker build --force-rm -t $(image) ./
 
 docker-run:
-	@docker run -it --rm $(options) $(image):$(tag) $(cmd)
+	@docker run -it --rm $(run_options) $(image):$(tag) $(cmd)
 
 docker-tag:
 	@docker tag $(image):$(tag) $(organization)/$(image):$(tag)

@@ -13,5 +13,5 @@ COPY ./stats_workshop ./stats_workshop
 COPY ./jupyter_notebook_config.py ./
 COPY ./requirements.txt ./
 
-RUN mv ./jupyter_notebook_config.py ~/.jupyter/jupyter_notebook_config.py
+RUN mv ./jupyter_notebook_config.py /home/jovyan/.jupyter/jupyter_notebook_config.py
 RUN pip install -r ./requirements.txt
