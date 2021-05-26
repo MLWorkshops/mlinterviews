@@ -1,7 +1,7 @@
 
 ## Statistics
 
-[Original questions and here](https://raw.githubusercontent.com/kojino/120-Data-Science-Interview-Questions/master/statistical-inference.md)
+[Source and sample answers](https://raw.githubusercontent.com/kojino/120-Data-Science-Interview-Questions/master/statistical-inference.md)
 
 * In an A/B test, how can you check if assignment to the various buckets was truly random?
 * What is a p-value?
@@ -12,7 +12,7 @@
 
 ## Probability
 
-[Original questions and here](https://raw.githubusercontent.com/kojino/120-Data-Science-Interview-Questions/master/probability.md)
+[Source and sample answers](https://raw.githubusercontent.com/kojino/120-Data-Science-Interview-Questions/master/probability.md)
 
 * Bobo the amoeba has a 25%, 25%, and 50% chance of producing 0, 1, or 2 offspring, respectively. Each of Bobo’s descendants also have the same probabilities. What is the probability that Bobo’s lineage dies out?
 * In any 15-minute interval, there is a 20% probability that you will see at least one shooting star. What is the probability that you see at least one shooting star in the period of an hour?
@@ -24,7 +24,7 @@
 
 ## Additional Questions
 
-[Some answers here](https://github.com/alexeygrigorev/data-science-interviews/blob/master/theory.md)
+[Source and some answers](https://github.com/alexeygrigorev/data-science-interviews/blob/master/theory.md)
 
 * What are precision and recall?
 * What is feature engineering?
