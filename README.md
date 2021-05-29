@@ -19,6 +19,7 @@ The following decribes the contents of the repository, agenda and how to start u
 | `data` | Instructions on getting the data for the workshop |
 | `stats_workshop` | Introduction to statistical thinking |
 | `machine_learning_foundations` | ML foundations and classicial ML |
+| `interview_mythbusting` | Interviewing myths and truths |
 | `deep_learning` | Introduction to deep learning |
 | `mlops` | ML models in production |
 
