@@ -75,5 +75,7 @@ The following decribes the contents of the repository, agenda and how to start u
     make pull
     make docker-run
     ```
- 
-- Open http://127.0.0.1:8888/ in your browser in order to access Jupyter Notebook
+- Open in your browser the following link `http://127.0.0.1:8888/?token=<.....>` printed out in your terminal.
+> Note: If no link with a token is printed out in your terminal, then
+> open this link `http://127.0.0.1:8888/` in your browser.  
+

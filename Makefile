@@ -1,7 +1,7 @@
 tag=latest
 organization=mlworkshops
 image=data-science-interview-workshop
-run_options=-p 8888:8888
+run_options=-p 8888:8888 -v `pwd`:/workshop/
 
 # Docker
 build:
