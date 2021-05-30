@@ -29,11 +29,14 @@ The following decribes the contents of the repository, agenda and how to start u
 
 ### Getting started
 
+#### Running Jupyter directly on a local (host) machine
+
 - Install Python 3.6+.
-- Clone the repository.
+- Clone the repository and `cd` into the repository.
 
     ```
     git clone https://github.com/MLWorkshops/mlinterviews.git
+    cd mlinterviews
     ```
 
 - Install the required Python packages with the included requirements file.
@@ -55,3 +58,22 @@ The following decribes the contents of the repository, agenda and how to start u
     ```
     jupyter lab
     ```
+
+#### Running Jupyter inside a docker container
+
+- Install docker
+- Clone the repository and `cd` into the repository.
+
+    ```
+    git clone https://github.com/MLWorkshops/mlinterviews.git
+    cd mlinterviews
+    ```
+
+- Pull the docker image from dockerhub
+
+    ```
+    make pull
+    make docker-run
+    ```
+ 
+- Open http://127.0.0.1:8888/ in your browser in order to access Jupyter Notebook

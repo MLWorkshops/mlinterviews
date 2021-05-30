@@ -16,6 +16,10 @@ docker-tag:
 docker-push:
 	@docker push $(organization)/$(image):$(tag)
 
+pull:
+	@docker pull $(organization)/$(image):$(tag)
+
+
 .PHONY: help
 help:
 	@echo "\nDocker:"
