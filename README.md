@@ -61,7 +61,7 @@ The following decribes the contents of the repository, agenda and how to start u
 
 #### Running Jupyter inside a docker container
 
-- Install docker
+- Install docker ([Docker for Mac](https://docs.docker.com/docker-for-mac/install/))
 - Clone the repository and `cd` into the repository.
 
     ```
