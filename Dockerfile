@@ -5,13 +5,8 @@ WORKDIR /workshop/
 
 USER root
 
-COPY ./deep_learning ./deep_learning
-COPY ./interview_mythbusting ./interview_mythbusting
-COPY ./machine_learning_foundations ./machine_learning_foundations
-COPY ./mlops ./mlops
-COPY ./stats_workshop ./stats_workshop
-COPY ./jupyter_notebook_config.py ./
-COPY ./requirements.txt ./
+ADD ./machine_learning_foundations/requirements.txt ./machine_learning_foundations/requirements.txt
+ADD ./stats_workshop/requirements.txt ./stats_workshop/requirements.txt
+ADD ./requirements.txt ./requirements.txt
 
-RUN mv ./jupyter_notebook_config.py /home/jovyan/.jupyter/jupyter_notebook_config.py
 RUN pip install -r ./requirements.txt
