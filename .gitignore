@@ -130,6 +130,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# Image files
-images/
