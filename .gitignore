@@ -130,14 +130,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-<<<<<<< HEAD
-=======
 
-# Image files
-images/
 # PyCharm files
 .idea/
 
 # Ignore all jupyter notebook files located inside stats_workshop folder and its subfolders since we are using markdown files instead on github
 stats_workshop/**/*.ipynb
->>>>>>> bd0131344caefa8228af67d340635de89204e3a6
