@@ -1,2 +1,7 @@
 jupyter
-pandas
+matplotlib==3.4.1
+numpy==1.20.2
+pandas==1.2.4
+
+-r ./machine_learning_foundations/requirements.txt
+-r ./stats_workshop/requirements.txt
