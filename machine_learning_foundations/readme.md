@@ -1,5 +1,11 @@
 # Machine Learning Foundations
 
+## Google Colab
+
+If using Colab, these are the instructions:
+1. Access the notebook through this [link](https://colab.research.google.com/drive/1Y21R55GjVyGnsvJnoUn9yI8RbkDnwEcx?usp=sharing).
+2. Select File from the menu at the top.
+3. Choose Save a Copy in Drive.
 
 ## Outline
 
