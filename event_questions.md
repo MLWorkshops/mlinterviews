@@ -8,7 +8,7 @@ https://github.com/MLWorkshops/mlinterviews
 
 ## Where are the setup instructions?
 
-https://github.com/MLWorkshops/mlinterviews
+https://github.com/MLWorkshops/mlinterviews#getting-started
 
 ## Regarding the number of jars.  Is there ramifications for resampling or is each sample not repeating?
 
@@ -45,8 +45,8 @@ Something that helped me was to think of assumptions less as “rules.” It’s
 ## If the class imbalance is 90:10 what should be done to train a good model? Also, what would be a good way to validate such a model?
 
 * Metrics for class imbalance :
-** AUC ROC
-** AUC PR
+  * AUC ROC
+  * AUC PR
 * https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18
 
 
@@ -59,7 +59,7 @@ Something that helped me was to think of assumptions less as “rules.” It’s
 
 * Little take from my point of view.  It may not be a portfolio necessarily, but having a blog that highlights your technical interests and new things you are learning, can be good.  Same goes for technical videos - e.g. speak at a meetup on a tech topic you care about.  Finally, if you have time, find an interesting problem you want to solve (a very crisp question that you know you can answer with stats or ML or at least explore the data) and create a public place to showcase (blog, GitHub repo, etc.).  passion in technical areas imho shows that growth mindset
 
-* I think doing or two hackathons or kaggle competitions per year is a great way to build a portfolio outside the daily job
+* I think doing one or two hackathons or a Kaggle competitions per year is a great way to build a portfolio outside the daily job
 
 ## To piggy back on this same theme, in your experience are companies willing to hire does not have a formal background (i.e. Degree) in DS?  Trying to figure out how to be seriously considered for DS roles, when I tend to get pigeonholded based on my previous experience in test and eval
 
